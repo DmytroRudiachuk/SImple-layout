@@ -1,6 +1,9 @@
-let arr = ["I", "learn", "JavaScript"];
+menu.onclic = function myFunction() {
+	let x = document.getElementById('myTopnav');
 
-arr.splice(1, 2)
-
-console.log(arr);
-alert(arr)
+	if(x.className === "topnav"){
+		x.className += " responsive";
+	}else{
+		x.className = "topnav";
+	}
+}
