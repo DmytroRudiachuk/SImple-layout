@@ -78,10 +78,10 @@ footer{
 footer a{
 	color: white;
 	font-size: 14px;
-	margin-left: 10px;
+	margin-left: 10px;	
 }
-footer p{
-	color: white;
+footer p{	color: white;
+
 }
 footer nav a:hover{
 	border-bottom: 1px solid white;
