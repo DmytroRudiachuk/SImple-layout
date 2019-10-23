@@ -259,6 +259,20 @@ textarea{
 .about-container p{
 	margin-top: 50px;
 }
+.services{
+	width: 70%;
+	margin: 50px auto;
+	text-align: center;
+}
+.services img{
+	width: 100%;
+}
+.services__container{
+	margin-top: 50px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 50px 100px;
+}
 
 
 @media screen and (max-width: 768px){
@@ -320,5 +334,8 @@ textarea{
 	}
 	.blog-container{
 		width: 20rem;
+	}
+	.services__container{
+	grid-template-columns: 1fr ;	
 	}
 }
